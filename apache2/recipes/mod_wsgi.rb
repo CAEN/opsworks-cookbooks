@@ -20,8 +20,7 @@
 if platform_family?('debian')
 	  package 'libapache2-mod-wsgi'
 elsif platform_family?('rhel')
-	python  package 'mod_wsgi'
-	action :install
+	  package 'mod_wsgi'
 end
 
 apache_module "wsgi" do
