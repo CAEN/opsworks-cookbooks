@@ -39,6 +39,7 @@ recipe "apache2::mod_setenvif", "Apache module 'setenvif' with config file"
 recipe "apache2::mod_ssl", "Apache module 'ssl' with config file, adds port 443 to listen_ports"
 recipe "apache2::mod_status", "Apache module 'status' with config file"
 recipe "apache2::logrotate", "Apache Logrotate configuration"
+recipe "apache2::mod_wsgi", "Apache module 'wsgi' for Python web services"
 
 attribute "apache",
   :display_name => "Apache Hash",
